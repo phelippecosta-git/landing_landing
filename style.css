@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F4F8FF;
+  color: #0A1F44;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+
+header {
+  padding: 20px 0;
+  background: #FFFFFF;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.logo span {
+  color: #2563EB;
+}
+
+/* HERO */
+
+.hero {
+  padding: 120px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #0A1F44, #1E3A8A);
+  color: #FFFFFF;
+}
+
+.hero h2 {
+  font-size: 2.7rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 30px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* BOTÕES */
+
+.btn-primary {
+  background: #2563EB;
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+.btn-primary:hover {
+  background: #1E40AF;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 2px solid #2563EB;
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2563EB;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: #2563EB;
+  color: #fff;
+}
+
+/* SECTIONS */
+
+section {
+  padding: 100px 0;
+}
+
+.benefits h2,
+.plans h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* CARDS */
+
+.card, .plan {
+  background: #FFFFFF;
+  padding: 35px;
+  border-radius: 14px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.card:hover, .plan:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.card p {
+  color: #4B5563;
+}
+
+/* PLANOS */
+
+.plan .price {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #2563EB;
+  font-weight: 700;
+}
+
+.plan ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.plan ul li {
+  margin-bottom: 10px;
+  color: #4B5563;
+}
+
+.highlight {
+  border: 2px solid #2563EB;
+}
+
+/* CTA FINAL */
+
+.cta {
+  background: linear-gradient(135deg, #2563EB, #1E40AF);
+  text-align: center;
+  color: #fff;
+}
+
+.cta h2 {
+  margin-bottom: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #0A1F44;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* WHATS APP */
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+}
+
+.btn-whatsapp:hover {
+  background: #1EBE5D;
+  transform: translateY(-2px);
+}
+
+.form-section {
+  padding: 100px 0;
+  background: #F4F8FF;
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container iframe {
+  width: 150%;
+  max-width: 700px;
+  height: 750px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
